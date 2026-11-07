@@ -7,7 +7,7 @@
 자동 데이터 저장: JSON 파일을 이용해 프로그램 종료 후에도 데이터 유지
 
 ## 설치 및 실행 방법
-레포지토리 클론
+레포지토리 클
 ```Bash
 git clone https://github.com/username/MiniClipper.git
 cd MiniClipper
