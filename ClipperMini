@@ -9,7 +9,7 @@ while True:
     
     if cmd == "1":
         print("\n".join(f"- {k}: {v}" for k, v in data.items()) or "저장된 항목 없음")
-    elif cmd == "2":
+    elif cmd == "2"
         k, v = input("제목: "), input("내용: ")
         data[k] = v
         json.dump(data, open(FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
