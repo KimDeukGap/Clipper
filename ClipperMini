@@ -16,5 +16,4 @@ while True:
     elif cmd == "3":
         k = input("삭제할 제목: ")
         if data.pop(k, None): json.dump(data, open(FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    elif cmd == "4":
-        break
+    
